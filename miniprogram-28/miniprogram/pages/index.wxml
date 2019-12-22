@@ -1,0 +1,6 @@
+<!--pages/index.wxml-->
+<button  bindtap='Turnpage1' class="button1" hover-class="plain-hover">推荐</button>
+
+<button  bindtap='Turnpage2' class="button2" hover-class="plain-hover">推荐戏曲</button>
+<button bindtap='Turnpage3' class="button3"hover-class="plain-hover">你想要？我们帮</button>
+<button bindtap='Turnpage4' class="button4"hover-class="plain-hover">反馈哟！</button>

@@ -1,0 +1,13 @@
+.feetback
+{
+  color:blueviolet;
+  background-color: pink;
+}
+.plain-hover{
+  position: relative;
+  top: 3rpx;
+  box-shadow:0px 0px 10px #bbbec4 inset; 
+}
+.text{
+  block-size: 100px;
+}

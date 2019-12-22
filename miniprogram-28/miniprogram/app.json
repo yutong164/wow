@@ -1,0 +1,18 @@
+{
+  "pages": [
+    "pages/index",
+    "pages/found/Goodartical/artical1",
+    "pages/found/Goodartical/collection",
+    "pages/found/Goodartical/feedback",
+    "pages/found/Goodartical/music"
+  ],
+  "window": {
+    "backgroundColor": "black",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "文刊",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

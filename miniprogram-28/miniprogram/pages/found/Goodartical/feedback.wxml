@@ -1,0 +1,23 @@
+<text class="feetback">想听的戏曲，咨询，都可以提前发反馈给我们哦，后台收集您给我们的反馈！我们会认真挑选一些反馈，并回馈到【你想要？我们帮】按钮后面哦~</text>
+<image src="https://ask.qcloudimg.com/http-save/yehe-1008345/wcy7ol1fpj.jpeg?imageView2/2/w/1620"></image>
+<form bindsubmit="formSubmit">
+<!-- 给form添加bindsubmit属性，值为formSubmit，即表单提交后触发formSubmit函数，formSubmit函数写在index.js里。-->
+
+<view class='form'>
+
+<view class='input'>
+
+
+<input name="input_content" value="{{input}}"class="text" type="text" placeholder="写入，一周后也许就会收到一个惊喜"   />
+         
+<!-- 给input组件添加name属性，值为input_content，表示表单提交后该输入框的值的键的名字是input_content。-->
+<!-- 给input组件添加value属性，值为变量input的值，用于成功提交后清空输入框的显示的值。-->
+</view>
+
+<view>
+
+ <button type="default" class="submit" formType="submit"hover-class="plain-hover" bindtap="modalcnt">回馈给我们！</button>
+<!-- 给button组件添加formType属性，值为submit，表示该按钮为提交表单的按钮，点击则提交表单，form表单组件内部所有带name属性的组件的值都会被传递给formSubmit函数。-->
+</view>
+</view>
+</form>

@@ -1,0 +1,28 @@
+.Firsttitle
+{
+color:#3581be;
+}
+.title
+{
+color:forestgreen;
+background-color:antiquewhite;
+background-size: 200ch;
+text-align: center;
+}
+.dream
+{
+  color:cornflowerblue;
+  background-color:blanchedalmond;
+}
+.small
+{
+  color:coral;
+}
+.com
+{
+  color:fuchsia;
+}
+.text1
+{
+  color:#3581be;
+}
